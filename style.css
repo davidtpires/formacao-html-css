@@ -72,3 +72,9 @@ body {
     text-decoration: none;
     color: #F6F6F6;       
 }
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
+}
+
+
