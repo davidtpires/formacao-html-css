@@ -2,7 +2,7 @@
 # 🌐 Portfólio Pessoal 
 - Este projeto é meu portfólio pessoal desenvolvido durante o curso de HTML e CSS na Alura. Foi uma excelente oportunidade para aprender a estruturar páginas com HTML5 e criar designs estilosos com CSS3, aplicando boas práticas de desenvolvimento web. 🚀
 
-- 🔗 Acesse o projeto aqui: formacao-html-css-eta.vercel.app
+- 🔗 Acesse o projeto aqui: https://formacao-html-css-eta.vercel.app/
 
 # 🎨 Visão Geral  
 - Meu portfólio inclui:
