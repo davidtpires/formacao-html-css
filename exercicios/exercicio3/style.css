@@ -1,20 +1,20 @@
 body {
-    background-color: indigo;
-    color: white;
+    background-color: #FF5733;
+    color: #00FF00;
 }
 
 h1 {
-    color: brown;
+    color: #231123;
 }
 
 p {
-    color: aquamarine;
+    color: #5C5544;
 }
 
 footer {
-    color: #86817b;
+    color: #4D5F86;
 }
 
 a {
-    color: wheat;
+    color: #3568DB;
 }
