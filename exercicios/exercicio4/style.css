@@ -4,9 +4,15 @@
 }
 
 body {
+    /* Deixar do tamanho da tela do dispositivo */
+    height: 100vh;
     background-color: #021017;
     color: #2BDEFD;
+    /* Elementos não ultrapassem os limites; */
+    box-sizing: border-box;
 }
+
+
 
 h1 {
     color: #ffffff;
@@ -38,3 +44,23 @@ a {
 .urgente {
     color: red;
 }
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    justify-content: space-around;
+}
+
+.responsivo-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
