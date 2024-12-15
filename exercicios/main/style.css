@@ -7,7 +7,7 @@
 
 body {
     /* Deixar do tamanho da tela do dispositivo */
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #121212;
     color: #2BDEFD;
     /* Elementos não ultrapassem os limites; */
@@ -15,6 +15,26 @@ body {
     font-family: "Metal Mania", system-ui;
     font-weight: 200;
     font-style: normal;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.cabecalho__menu__link {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    color: #e74c3c;
+}
+
+.cabecalho__menu__link:hover {
+    color: #361313;
+    cursor: pointer;
+    padding: 5px;
 }
 
 
@@ -51,12 +71,8 @@ a {
     font-size: 2em;
 }
 
-.urgente {
-    color: red;
-}
-
 .apresentacao {
-    margin: 2% 10%;
+    padding: 1% 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -107,6 +123,10 @@ a {
 
 .apresentacao__links__link{
     /* background-color: #e74c3c; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
     color: #F6F6F6F6;
     width: 378px;
     text-align: center;
@@ -118,3 +138,18 @@ a {
     padding: 21.5px 0;
     /* margin: 5px; */   
 }
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
+    border: solid 3px #a73e3e;
+    cursor: alias;
+}
+
+.rodape {
+    padding: 24px;
+    color: #e74c3c;
+    background-color: #272727;
+    text-align: center;
+    font-weight: 400;
+}
+
