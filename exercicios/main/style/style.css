@@ -38,7 +38,7 @@ body {
 
 .cabecalho__menu__link {
     text-decoration: none;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-secundaria);
     padding: 5px;
@@ -51,14 +51,14 @@ body {
 }
 
 
-h1 {
+.titulo-blog {
     color: var(--cor-terciaria) ;
-    margin: 1em;
+    margin: 1rem;
     text-align: center;
     padding: 5px;
 }
 
-h2 {
+.subtitulo-blog {
     color: var(--cor-terciaria);
     text-align: center;
 }
@@ -74,14 +74,14 @@ a {
 
 .texto-destaque {
     color: var(--cor-quartriaria);
-    font-size: 1.5em;
+    font-size: 1.5rem;
     text-align: justify;
     margin: 10px 0px;
 }
 
 .titulo-blog {
     color: var(--cor-secundaria);
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .apresentacao {
@@ -103,11 +103,11 @@ a {
     list-style-type: none;
     text-align: center;
     color: var(--cor-quartriaria);
-    font-size: 20px;
+    font-size: 1.25rem;
     
 }
 
-.folder {
+.apresentacao__imagem {
     height: 30%;
     width: 40%;
     border: solid black 5px;
@@ -120,7 +120,7 @@ a {
     align-items: center;
     justify-content: center;
     color: var(--cor-quartriaria);
-    font-size: 1.5em;
+    font-size: 1.5rem;
     
 }
 
@@ -141,25 +141,25 @@ a {
     color: rgb(207, 200, 200);
 }
 
-.apresentacao__links__link{
+.apresentacao__links__navegacao{
     /* background-color: #e74c3c; */
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
     color: var(--cor-terciaria);
-    width: 378px;
+    width: 70%;
     text-align: center;
     border-radius: 5px;
     border: solid 3px #361313;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 100;
     text-decoration: none;
     padding: 21.5px 0;
     /* margin: 5px; */   
 }
 
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-primaria);
     border: solid 3px var(--cor-secundaria);
     cursor: alias;
